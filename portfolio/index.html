@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f6f17c76ee.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo2.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">  
+            <h1>Hey,<br>I'm <span>Nikhil</span> Kumar Singh</h1> 
+            <p>Final Year BTech Undergraduate at IIIT Agartala.</p> 
+        </div>
+    </div>
+</div> 
+<!--------about------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/niki123.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>My name is Nikhil Kumar Singh , I am currenty  a dedicated and enthusiastic final year undergraduate student at IIIT Agartala and I'm persuing my bachlors in Computer Science And Engineering. I have a Outside of work, I enjoy reading novels and going to gym, which keeps me inspired and grounded. I'm excited to connect and explore new opportunities. I’m currently looking for new opportunities where I can apply my experience and curiosity in a role that challenges me and allows me to grow. If you’re interested in collaborating or simply connecting, I’d love to hear from you.</p> 
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI-UX</span><br>Designing Web/App Interfaces</li>
+                        <li><span>Web Development</span><br>Web-App Development</li>
+                        <li><span>Competitive Programmer</span><br>Solving Algorithmic Problems</li>
+                        <li><span>Event Management</span><br>Organizing, Scheduling, and Executing Events from Start to Finish.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023 - Current</span><br>UI/UX Designing for Think India NIT Agartala.</li>
+                        <li><span>2023 - 2024</span><br>Internship at MENT Enterprises.</li>
+                        <li><span>2023 - 2025</span><br>Lead of DSA Team of IIIT Agartala.</li>
+                        <li><span>2023 - Current</span><br>Lead of Differnt Cultural and Tech Oriented Events.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2019 - 2020</span><br>Matriculation from ST Thomas School,Indirapuram.</li>
+                        <li><span>2021 - 2022</span><br>Intermediate from ST Thomas School, Indirapuram. </li>
+                        <li><span>2022 - currently</span><br>BTech in Computer Science and Enginering From IIIT Agartala.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div> 
+</div>
+<!-------SERVICES-------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I create beautiful and easy-to-use websites that help your business stand out online. My web design services focus on making your site look great on all devices—computers, tablets, and phones. I work closely with you to understand your brand and goals, so the design fits your style and speaks to your audience. Whether you need a personal blog, a business site, or an online store, I build websites that are fast, user-friendly, and modern. From layout and colors to images and fonts, I take care of everything to make your website both attractive and effective.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>I create user-friendly and visually appealing designs that make websites and apps easy to use. UI (User Interface) focuses on how things look—like colors, buttons, and layout. UX (User Experience) is about how things work—making sure users can navigate smoothly and find what they need without confusion. I design with the user in mind, aiming to make each interaction simple, fast, and enjoyable. Whether you're building a new product or improving an existing one, I ensure the design is both attractive and effective, helping you connect better with your audience and reach your goals.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-calendar-days"></i>
+                <h2>Event Management</h2>
+                <p>During college, I actively took part in organizing various fests and events. I learned how to plan, coordinate, and manage different activities from start to finish. This included handling budgets, making schedules, working with teams, and communicating with sponsors and guests. I also managed stage setups, registrations, and last-minute changes smoothly. These experiences helped me become more confident, organized, and a better team player. I understood the importance of time management, problem-solving, and teamwork. Managing college events gave me real experience in event planning and taught me how to keep things running smoothly under pressure.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>    
+    </div>
+
+</div>
+<!------------portfolio------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/wo1.png">
+                <div class="layer">
+                    <h3>Social Media Dashboard</h3>
+                    <p>This website aggregate feeds from multiple social media platforms.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/wo2.jpg">
+                <div class="layer">
+                    <h3>Hospital Management App</h3>
+                    <p>Manage hospital operations and patient records.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/wo3.png">
+                <div class="layer">
+                    <h3>E-commerce Website</h3>
+                    <p>This website performs Product listings , Cart and checkout , and Admin dashboard to add/edit/delete products.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!-----------contact--------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> nikhilkumarsingh004@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i> +91-9650-425-465</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/home"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/nikhil_resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="E-Mail" placeholder="Your E-Mail" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Nikhil.<i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link"); 
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+</body>
+</html>
